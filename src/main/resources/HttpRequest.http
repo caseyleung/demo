@@ -1,0 +1,18 @@
+###
+GET http://localhost:8080/api/queryMoney
+Content-Type: application/json
+
+###
+GET http://localhost:8080/api/details
+Content-Type: application/json
+
+
+### Send POST request with json body
+POST http://localhost:8080/api/cost/20
+Content-Type: application/json
+
+
+### Send POST request with json body
+POST http://localhost:8080/api/refund/20
+Content-Type: application/json
+
